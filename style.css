@@ -8,7 +8,7 @@ body{
     height: 100vh;
 }
 
-#calculator{
+#calculator {
     max-width: 360px;
     background-color: #0d1b2a;
     border-radius: 10px;
@@ -16,7 +16,7 @@ body{
     box-shadow: 0 10px 20px rgba(0, 0,0, 0.19);
 }
 
-#display{
+#display {
     width: 100%;
     height: 56px;
     font-size: 20px;
@@ -30,26 +30,32 @@ body{
     box-sizing: border-box;
 }
 
-.operator{
-    color: #219ebc;
-}
-#ac{
-    color: #bf4d5d;
-}
-.equal{
-    width: calc(50% - 10px);
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-top: 20px;
 }
 
-button{
-    width: calc(25% - 10px);
-    height:50px;
+button {
+    height: 50px;
     font-size: 20px;
-    margin: 10px 5px;
     border: none;
     border-radius: 5px;
-    float: left;
-    background-color: rgb(13,27,42);
-    -webkit-box-shadow: -1px -1px 30px -5px rgba(0,0,0,0.2);
-    -moz-box-shadow: -1px -1px 30px -5px rgba(0,0,0,0.2);
-    box-shadow: -1px -1px 30px -5px rgba(0,0,0,0.2);
+    background-color: rgb(13, 27, 42);
+    color: #e0e1dd;
+    cursor: pointer;
+    box-shadow: -1px -1px 30px -5px rgba(0, 0, 0, 0.2);
+}
+
+.operator {
+    color: #219ebc;
+}
+
+#ac {
+    color: #bf4d5d;
+}
+
+.equal {
+    grid-column: span 2;
 }

@@ -4,7 +4,11 @@ const buttons = document.querySelectorAll("button");
 buttons.forEach((btn) => {
     btn.addEventListener("click", () =>{
         if(btn.id === "="){
-            display.value = eval(display.value)
+            try {
+                display.value = eval(display.value);
+            } catch (error) {
+                display.value = "Error";
+            }
         }else if(btn.id === "ac"){
             display.value = ""
         } else if(btn.id == "de"){
