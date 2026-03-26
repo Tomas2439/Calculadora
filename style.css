@@ -1,7 +1,7 @@
 body{
     text-align: center;
     margin:0;
-    background: #bf4d5d;
+    background: #a57279;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -25,7 +25,7 @@ body{
     padding: 20px;
     border-radius: 5px;
     color: #e0e1dd;
-    background-color: rgba(13,27,42,0.3);
+    background-color: rgba(66, 122, 182, 0.3);
     border: none;
     box-sizing: border-box;
 }
