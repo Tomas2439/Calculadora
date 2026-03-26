@@ -1,4 +1,4 @@
-# 🧮 Calculadora Web Simple - T.P Prog. IV
+# 🧮 Calculadora - T.P Prog. IV
 
 ¡Bienvenido/a a mi proyecto de Calculadora! Este es un trabajo práctico creado para poner a prueba y afianzar conocimientos en desarrollo web front-end, utilizando únicamente **HTML, CSS y JavaScript** puro.
 
